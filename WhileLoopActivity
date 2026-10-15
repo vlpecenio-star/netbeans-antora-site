@@ -1,0 +1,12 @@
+import java.applet.Applet;
+import java.awt.Graphics;
+
+public class WhileLoopActivity extends Applet {
+    public void paint(Graphics g) {
+        int i = 1; // declared own variable
+        while(i <= 5) {
+            g.drawString("Line " + i, 20, 20*i);
+            i++;
+        }
+    }
+}
